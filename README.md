@@ -33,6 +33,10 @@ You should then see a new server appear to replace the failed instance.
 
 To trigger a server CPU increase, you can visit /cpu which will cause the server you visit to max out on CPU, and this should trigger an autoscale.
 
+## Use infrastructure as Code
 
+If you want to, now review the cloudformation template in scripts/sampleapp.template.
+
+This file creates everything you have just done in one simple script!!
 
 
